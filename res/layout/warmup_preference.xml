@@ -1,0 +1,226 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/widget_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+        
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+       		android:gravity="center_horizontal" 
+        	android:text="% of Working Weight" />
+	
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+       		android:gravity="center_horizontal" 
+	        android:text="# of Reps" />
+	    
+	   	<TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+       		android:gravity="center_horizontal" 
+	        android:text="# of Sets" />
+	    
+	    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+        
+	    <EditText
+	        android:id="@+id/Weight0"
+	        android:defaultValue="@string/weight0"
+	        android:text="@string/weight0"
+	        android:key="weight0"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+       		android:gravity="center_horizontal"  android:inputType="number"/>
+	
+	    <EditText
+	        android:id="@+id/Rep0"
+	        android:defaultValue="@string/rep0"
+	        android:text="@string/rep0"
+	        android:key="rep0"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+       		android:gravity="center_horizontal" 
+	        android:layout_weight="1"
+	         />
+	    
+	   	<EditText
+	   	    android:id="@+id/Set0"
+	   	    android:defaultValue="@string/set0"
+	   	    android:text="@string/set0"
+	   	    android:key="set0"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+       		android:gravity="center_horizontal" 
+	         />
+	    
+	 </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+        
+	    <EditText
+	        android:id="@+id/Weight1"
+	        android:key="weight1"
+	        android:defaultValue="@string/weight1"
+	        android:text="@string/weight1"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+       		android:gravity="center_horizontal" />
+	
+	    <EditText
+	        android:id="@+id/Rep1"
+	        android:key="rep1"
+	        android:defaultValue="@string/rep0"
+	        android:text="@string/rep0"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+       		android:gravity="center_horizontal" 
+	        android:layout_weight="1"
+	         />
+	    
+	   	<EditText
+	   	    android:id="@+id/Set1"
+	   	    android:key="set1"
+	        android:defaultValue="@string/set2"
+	        android:text="@string/set2"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+       		android:gravity="center_horizontal" 
+	         />
+	    
+	 </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+        
+	    <EditText
+	        android:id="@+id/Weight2"
+	        android:key="weight2"
+	        android:defaultValue="@string/weight2"
+	        android:text="@string/weight2"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+       		android:gravity="center_horizontal" />
+	
+	    <EditText
+	        android:id="@+id/Rep2"
+	        android:key="rep2"
+	        android:defaultValue="@string/rep0"
+	        android:text="@string/rep0"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+       		android:gravity="center_horizontal" 
+	        android:layout_weight="1"
+	         />
+	    
+	   	<EditText
+	   	    android:id="@+id/Set2"
+	   	    android:key="set2"
+	        android:defaultValue="@string/set2"
+	        android:text="@string/set2"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+       		android:gravity="center_horizontal" 
+	         />
+	    
+	 </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+        
+	    <EditText
+	        android:id="@+id/Weight3"
+	        android:key="weight3"
+	        android:defaultValue="@string/weight3"
+	        android:text="@string/weight3"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+       		android:gravity="center_horizontal" />
+	
+	    <EditText
+	        android:id="@+id/Rep3"
+	        android:key="rep3"
+	        android:defaultValue="@string/rep0"
+	        android:text="@string/rep0"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+       		android:gravity="center_horizontal" 
+	        android:layout_weight="1"
+	         />
+	    
+	   	<EditText
+	   	    android:id="@+id/Set3"
+	   	    android:key="set3"
+	        android:defaultValue="@string/set2"
+	        android:text="@string/set2"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+       		android:gravity="center_horizontal" 
+	         />
+	    
+	 </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+        
+	    <EditText
+	        android:id="@+id/Weight4"
+	        android:key="weight4"
+	        android:defaultValue="@string/weight4"
+	        android:text="@string/weight4"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+       		android:gravity="center_horizontal" />
+	
+	    <EditText
+	        android:id="@+id/Rep4"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:defaultValue="@string/rep0"
+	        android:gravity="center_horizontal"
+	        android:key="rep4"
+	        android:text="@string/rep0" />
+	    
+	   	<EditText
+	   	    android:id="@+id/Set4"
+	   	    android:key="set4"
+	        android:text="@string/set2"
+	        android:defaultValue="@string/set2"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+       		android:gravity="center_horizontal" 
+	         />
+	    
+	 </LinearLayout>
+        
+</LinearLayout>
